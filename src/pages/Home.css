@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  margin-top: -20vh; /* Adjust this to move the text upwards */
+}
+
+.button-container {
+  margin-top: 20px; /* Add space between the question and the buttons */
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px; /* Space between the buttons */
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Button color */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
