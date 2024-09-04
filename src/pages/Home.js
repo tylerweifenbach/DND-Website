@@ -2,16 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
+//For now, both buttons will lead to the same page. Need to implement account functionality.
+//They can either register or log in to their account, which will have all their characters saved.
 const Home = () => {
   return (
     <div className="container">
-      <h1>Are you a new player? Or an experienced one?</h1>
+      <h1>header</h1>
       <div className="button-container">
-        <Link to="/new-player" className="btn">
-          New Player
+        <Link to="/new-character" className="btn">
+          Register
         </Link>
-        <Link to="/experienced-player" className="btn">
-          Experienced Player
+        <Link to="/new-character" className="btn">
+          Log In
         </Link>
       </div>
     </div>

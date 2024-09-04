@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import NewPlayer from './pages/NewPlayer';
 import ExperiencedPlayer from './pages/ExperiencedPlayer';
+import NewCharacter from './pages/NewCharacter';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="/new-player" element={<NewPlayer />} />
           <Route path="/experienced-player" element={<ExperiencedPlayer />} />
+          <Route path="/new-character" element={<NewCharacter />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

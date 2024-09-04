@@ -1,0 +1,10 @@
+/* NewCharacter.css */
+.new-character-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
